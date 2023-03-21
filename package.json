@@ -1,0 +1,24 @@
+{
+  "name": "SimpleWork",
+  "version": "1.0.0",
+  "description": "SimpleWork is an organizing application for tasks",
+  "main": "src/App.ts",
+  "repository": "www.github.com/AletropyS2/SimpleWork",
+  "author": "Aletropy",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/App.ts"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "express.js": "^1.0.0",
+    "mongoose": "^7.0.2",
+    "typescript": "^5.0.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.21",
+    "ts-node-dev": "^2.0.0"
+  }
+}
